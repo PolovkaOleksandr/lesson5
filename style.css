@@ -1,0 +1,22 @@
+:root{
+ --header-color: #03A9F4
+}
+.list{
+    text-transform:uppercase;
+    
+}
+ol,
+ul{
+    list-style: none;
+}
+@font-face {
+    font-family:Ubuntu;
+    src: url(./assets/fonts/PlayfairDisplay-Regular.ttf) format('ttf');
+}
+.subtitle{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+}

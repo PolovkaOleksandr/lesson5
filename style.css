@@ -1,5 +1,9 @@
 :root{
- --header-color: #03A9F4
+ --header-color: #03A9F4;
+ --grey-color:#7D7D7D;
+ --light-color:#B4AD9E;
+ --black-color:#626262;
+ --white-color:#E5E5E5;
 }
 .list{
     text-transform:uppercase;
@@ -11,7 +15,18 @@ ul{
 }
 @font-face {
     font-family:Ubuntu;
+    src: url(./assets/fonts/Ubuntu-Light.ttf) format('ttf');
+}
+@font-face {
+    font-family: Playfair Display ;
     src: url(./assets/fonts/PlayfairDisplay-Regular.ttf) format('ttf');
+}
+*{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
 }
 .subtitle{
     font-family: 'Ubuntu';
@@ -19,4 +34,43 @@ ul{
     font-weight: 300;
     font-size: 14px;
     line-height: 16px;
+    color:var(--light-color)
 }
+*{
+    margin: 0cm;
+    padding: 0cm;
+}
+.main:hover{
+    color:var(--header-color);
+}
+.subject{
+    color:var(--black-color);
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+
+}
+.text{
+    color:var(--black-color);
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+body{
+    background-color: var(--white-color);
+}
+.button{
+    color:var(--black-color);
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+
+
